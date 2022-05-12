@@ -1,0 +1,33 @@
+.dream {
+    min-height: 600px;
+    &__block {
+        width: 100%;
+        min-height: 404px;
+        background: #9AA8B1;
+        &_image {
+            text-align: center;
+            padding-top: 120px;
+        }
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 43px;
+            line-height: 58px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 24px;
+        }
+        &_subtitle {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.8px;
+            color: #FFFFFF;
+            margin-top: 23px;
+        }
+    }
+}

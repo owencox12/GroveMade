@@ -1,0 +1,53 @@
+.header {
+    min-height: 75px;
+    transition: all .5s;
+    background: #fff;
+    top: -100%;
+    &__active {
+        position: fixed;
+        width: 100%;
+        min-height: 75px;
+        left: 0;
+        top: 0;
+        background: #fff;
+        transition: all .3s;
+        z-index: 3000;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 29px;
+    }
+    &__burger {
+        display: none;
+        &_list {
+            display: none;
+        }
+    }
+    &__menu {
+        &_list {
+            display: flex;
+            &_type {
+                margin: 0 12px;
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    text-decoration: none;
+
+                }
+                &:first-child {
+                    margin-left: 0;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

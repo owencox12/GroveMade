@@ -1,0 +1,27 @@
+.slider {
+    padding-bottom: 90px;
+    &__title {
+        padding-top: 130px;
+    }
+    &__item {
+        &_name {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            letter-spacing: 0.7px;
+            color: #A0A0A0;
+            margin-top: 23px;
+        }
+        &_price {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 21px;
+            letter-spacing: 0.7px;
+            color: #A0A0A0;
+        }
+    }
+}

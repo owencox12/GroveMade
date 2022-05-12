@@ -1,0 +1,41 @@
+.main {
+    min-height: 604px;
+    background: url(../../image/mainBG.png) center center / cover no-repeat;
+    padding-top: 75px;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 46px;
+        text-align: center;    
+        color: #FFFFFF;
+        padding-top: 188px;
+    }
+    &__subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        margin-top: 12px;
+    }
+    &__link {
+        text-align: center;
+        margin-top: 28px;
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}

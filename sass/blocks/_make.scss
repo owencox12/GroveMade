@@ -1,0 +1,42 @@
+.make {
+    &__title {
+        padding-top: 116px;
+    }
+    &__subtitle {
+        width: 777px;
+        margin: 0 auto;
+        margin-top: 23px;
+    }
+    &__image {
+        margin-top: 23px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 52px;
+    }
+    &__item {
+        width: 16%;
+        margin-top: 28px;
+    }
+    &__link {
+        text-align: center;
+        margin-top: 44px;
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+}

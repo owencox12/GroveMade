@@ -1,0 +1,93 @@
+.footer {
+    min-height: 368px;
+    padding-bottom: 28px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_block {
+            background: #000;
+            padding: 25px 30px 25px 30px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        &_list {
+            &_type {
+                margin: 16px 0;
+                &:first-child {
+                    margin-top: 0;
+                }
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 24px;
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_first {
+            display: flex;
+        }
+        &_text {
+            margin-left: 24px;
+        }
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 24px;
+            color: #000000;
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.8px;
+            color: #A0A0A0;
+            width: 348px;
+            margin-top: 23px;
+        }
+        &_divider {
+            width: 320px;
+            height: 1px;
+            background: #A0A0A0;
+            margin-top: 91px;
+        }
+    }
+    &__last {
+        display: flex;
+        justify-content: right;
+        margin-top: 84px;
+        &_text {
+            a {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 15px;
+                text-align: right;
+                letter-spacing: 0.8px;
+                color: #707A7F;
+                margin: 0 19.5px;
+                text-decoration: none;
+            }
+            span {
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
